@@ -1,0 +1,109 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+#intranet-nav {
+  position: relative !important;
+  background: #0d4293;
+  top: 0;
+  height: 50px;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  z-index: 9999999999 !important;
+}
+.global-nav-service a {
+  color: #474747;
+  text-decoration: none;
+}
+#intranet-nav a:not(#global-nav-311),
+#intranet-nav a:not(#global-nav-311):hover {
+  color: #FFF;
+}
+#intranet-nav .fa {
+  font-size: 1.2rem;
+  padding-top: 0.4rem;
+}
+#intranet-nav .la-icons {
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+  margin-bottom: -0.5rem;
+}
+#global-nav-leftwrap {
+  float: left;
+  display: block;
+}
+
+#global-nav-rightwrap {
+  margin-top: 6px;
+  float: right;
+  display: block;
+}
+#global-nav-la-logo {
+  padding-left: 18px;
+}
+#global-nav-la-logo .global-nav-text {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#global-nav-logo-text {
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+  text-decoration: none !important;
+  display: none;
+  vertical-align: middle;
+}
+  @media all and (min-width: 320px) {
+  #global-nav-logo-text {
+    display: table-cell;
+  }
+  #global-nav-logo-img {
+    display: table-cell;
+  }
+}
+ #global-nav-logo-text {
+    font-size: x-large;
+  }  
+@media all and (min-width: 375px) {
+  #global-nav-logo-text {
+    font-size: xx-large;
+  }  
+}
+#global-nav-311 .global-nav-service-icon {
+  border-radius: 6px;
+  background: #FFF;
+  padding: 0 4px;
+  font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+.global-nav-text {
+  padding-top: 0.4rem;
+  padding-left: 0.5rem !important;
+  font-size: 0.8rem;
+  color: #FFF;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+  text-decoration: none !important;
+}
+.global-nav-service {
+  display: inline-block;
+  padding-right: 18px;
+  height:26px;
+}
+.global-nav-service-icon,
+.global-nav-service-text {
+  display: block;
+  float: left;
+}
+
+@media all and (max-width: 1075px) {
+
+  .global-nav-service-text {
+    display: none;
+  }
+}
