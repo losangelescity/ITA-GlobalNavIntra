@@ -9,7 +9,6 @@ var scriptSource = (function(scripts) {
     return script.getAttribute('src', -1);
 }());
 scriptSource = scriptSource.replace("intranet_nav.js","");
-console.log(scriptSource);
 // Add our CSS.
 if(document.createStyleSheet) {
   document.createStyleSheet(scriptSource+'resources/font-awesome.min.css');
