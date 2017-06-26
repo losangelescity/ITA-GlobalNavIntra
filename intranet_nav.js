@@ -35,11 +35,13 @@ else {
 document.addEventListener('DOMContentLoaded', function(event) {
     // Stick the menu up top.
     document.body.insertBefore(intranetnar, document.body.firstChild);
+    var logo=document.getElementById("la-logo");
+    logo.src = scriptSource+'resources/la_lines.svg';
   });
   function resource_skeleton() {
     var html = '<div id="global-nav-leftwrap">\
     <div id="global-nav-la-logo">\
-     <img src="resources/la_lines.svg"  height=50 border=0 alt="Home">\
+     <img id="la-logo" src=""  height=50 border=0 alt="Home">\
     </div></div><div id="global-nav-rightwrap">\
   <div class="global-nav-service">\
       <a href="http://myla311.ci.la.ca.us/portal/faces/home/directory" id="global-nav-311" target="_blank" title="CITY SERVICES"><span class="global-nav-service-icon">311</span><span class="global-nav-text global-nav-service-text"> CITY SERVICES</span></a>\
