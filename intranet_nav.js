@@ -41,7 +41,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
   function resource_skeleton() {
     var html = '<div id="global-nav-leftwrap">\
     <div id="global-nav-la-logo">\
-     <img id="la-logo" src=""  height=50 border=0 alt="Home">\
+    <a href="http://insidela.ci.la.ca.us/index.html" id="global-nav-self" target="_blank">\
+     <img id="la-logo" src=""  height=50 border=0 alt="Home" href="http://insidela.ci.la.ca.us/index.html">\
+     </a>\
     </div></div><div id="global-nav-rightwrap">\
   <div class="global-nav-service">\
       <a href="http://myla311.ci.la.ca.us/portal/faces/home/directory" id="global-nav-311" target="_blank" title="CITY SERVICES"><span class="global-nav-service-icon">311</span><span class="global-nav-text global-nav-service-text"> CITY SERVICES</span></a>\
@@ -51,11 +53,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     </div>\
     <div class="global-nav-service">\
       <a href="http://mail.lacity.org/" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> CITY EMAIL</span></a>\
-    </div>\
-    <div class="global-nav-service">\
-      <a href="http://insidela.ci.la.ca.us/index.html" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-building " aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> INSIDE LA</span></a>\
-    </div>\
-    <div class="global-nav-service">\
+    </div>\   <div class="global-nav-service">\
       <a href="http://cityforms.ci.la.ca.us/" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-file-text" aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> CITY FORMS</span></a>\
     </div>\
     <div class="global-nav-service">\
