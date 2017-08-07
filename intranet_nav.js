@@ -12,7 +12,7 @@ scriptSource = scriptSource.replace("intranet_nav.js","");
 // Add our CSS.
 if(document.createStyleSheet) {
   document.createStyleSheet(scriptSource+'resources/font-awesome.min.css');
-  document.createStyleSheet(scriptSource+'resources/intranet_nav.css');
+  document.createStyleSheet(scriptSource+'resources/intranet_nav.css?v=1.1');
 }
 else {
   var styles = "@import url('"+scriptSource+"resources/font-awesome.min.css');";
@@ -20,7 +20,7 @@ else {
   newSS.rel='stylesheet';
   newSS.href='data:text/css,'+escape(styles);
   document.getElementsByTagName("head")[0].appendChild(newSS);
-  styles = "@import url('"+scriptSource+"resources/intranet_nav.css');";
+  styles = "@import url('"+scriptSource+"resources/intranet_nav.css?v=1.1');";
   newSS=document.createElement('link');
   newSS.rel='stylesheet';
   newSS.href='data:text/css,'+escape(styles);
