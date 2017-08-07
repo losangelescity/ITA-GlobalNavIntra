@@ -62,6 +62,11 @@ body,html{
   #global-nav-logo-img {
     display: table-cell;
   }
+  #la-logo{
+    height:22px;
+    top: 10px;
+    position: relative;
+  }
 }
  #global-nav-logo-text {
     font-size: x-large;
@@ -70,6 +75,46 @@ body,html{
   #global-nav-logo-text {
     font-size: xx-large;
   }  
+  #la-logo{
+    height:30px;
+    top: 5px;
+    position: relative;
+  }
+}
+@media all and (min-width: 400px) {   
+  #la-logo{
+    height:30px;
+    top: 4px;
+    position: relative;
+  }
+}
+@media all and (min-width: 420px) {   
+  #la-logo{
+    height:35px;
+    top: 4px;
+    position: relative;
+  }
+}
+@media all and (min-width: 450px) {   
+  #la-logo{
+    height:40px;
+    top: 4px;
+    position: relative;
+  }
+}
+@media all and (min-width: 500px) {   
+  #la-logo{
+    height:45px; 
+    top: initial;
+    position: initial;  
+  }
+}
+ @media all and (max-width: 320px) {  
+  #la-logo{
+    height:15px;
+    top: 10px;
+    position: relative;
+  }
 }
 #global-nav-311 .global-nav-service-icon {
   border-radius: 6px;
