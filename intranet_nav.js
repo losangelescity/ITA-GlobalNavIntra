@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     // Stick the menu up top.
     document.body.insertBefore(intranetnar, document.body.firstChild);
     var logo=document.getElementById("la-logo");
-    logo.src = scriptSource+'resources/la_lines.svg';
+    logo.src = scriptSource+'resources/GlobalNavIntranetLogo.svg';
   });
   function resource_skeleton() {
     var html = '<div id="global-nav-leftwrap">\
