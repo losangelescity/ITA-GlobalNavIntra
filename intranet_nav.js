@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     var html = '<div id="global-nav-leftwrap">\
     <div id="global-nav-la-logo">\
     <a href="http://insidela.ci.la.ca.us/index.html" id="global-nav-self" target="_blank">\
-     <img id="la-logo" src=""  height=50 border=0 alt="Home" href="http://insidela.ci.la.ca.us/index.html">\
+     <img id="la-logo" src=""  height=47 border=0 alt="Home" href="http://insidela.ci.la.ca.us/index.html">\
      </a>\
     </div></div><div id="global-nav-rightwrap">\
   <div class="global-nav-service">\
