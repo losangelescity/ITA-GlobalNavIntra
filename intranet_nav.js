@@ -8,7 +8,7 @@ var scriptSource = (function(scripts) {
 
     return script.getAttribute('src', -1);
 }());
-scriptSource = scriptSource.replace("intranet_nav.js","");
+scriptSource = scriptSource.replace("intranet_nav.min.js","");
 // Add our CSS.
 if(document.createStyleSheet) {
   document.createStyleSheet(scriptSource+'resources/font-awesome.min.css');
@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
   function resource_skeleton() {
     var html = '<div id="global-nav-leftwrap">\
     <div id="global-nav-la-logo">\
-    <a href="http://insidela.ci.la.ca.us/index.html" id="global-nav-self" target="_blank">\
-     <img id="la-logo" src=""  height=47 border=0 alt="Home" href="http://insidela.ci.la.ca.us/index.html">\
+    <a href="http://insidela.ci.la.ca.us/" id="global-nav-self" target="_blank">\
+     <img id="la-logo" src=""  height=47 border=0 alt="Home" href="http://insidela.ci.la.ca.us/">\
      </a>\
     </div></div><div id="global-nav-rightwrap">\
   <div class="global-nav-service">\
