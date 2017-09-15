@@ -55,6 +55,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
       <a href="http://mail.lacity.org/" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> CITY EMAIL</span></a>\
     </div>\   <div class="global-nav-service">\
       <a href="http://cityforms.ci.la.ca.us/" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-file-text" aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> CITY FORMS</span></a>\
+    </div>\  <div class="global-nav-service">\
+      <a href="http://citypay.ci.la.ca.us/" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-usd" aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> CITY PAY</span></a>\
     </div>\
     <div class="global-nav-service">\
       <a href="https://cityoflaprod.service-now.com/navpage.do" id="global-nav-self" target="_blank"><span class="global-nav-service-icon"><i class="fa fa-power-off" aria-hidden="true"></i></span><span class="global-nav-text global-nav-service-text"> SNOW</span></a>\
